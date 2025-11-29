@@ -1,0 +1,123 @@
+* {
+  min-height: 0px;
+  min-width: 0px;
+  font-family: "JetBrainsMono NFP";
+  font-size: 10px;
+  font-weight: 600;
+}
+window#waybar {
+  transition-property: background-color;
+  transition-duration: 1s;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+  background-color: transparent;
+  border-radius: 15px;
+}
+hyprland#workspaces {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#workspaces button {
+  padding: 1px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #cdd6f4;
+}
+#workspaces button:hover {
+  color: #1e1e2e;
+  background-color: #cdd6f4;
+}
+#workspaces button.active {
+  background-color: transparent;
+  margin-left: 0px;
+  color: #9de1fc;
+  padding: 0.3px;
+}
+#workspaces button.urgent {
+  background-color: #1e1e2e;
+  color: #f38ba8;
+}
+#custom-sep,
+#clock,
+#battery,
+#pulseaudio,
+#custom-logo,
+#custom-power,
+#custom-spotify,
+#custom-notification,
+#cpu,
+#tray,
+#network,
+#memory,
+#window,
+#mpris {
+  margin-right: 1px;
+  margin-left: 1px;
+  border-radius: 6px;
+  /* background-color: #181825; */
+  background-color: transparent;
+}
+
+#custom-archlogo {
+  padding: 0px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 3px;
+  color: #9de1fc;
+}
+
+#mpris.playing {
+  color: #cdd6f4;
+}
+#mpris.paused {
+  color: #9399b2;
+}
+#custom-sep {
+  padding: 0px;
+  color: #585b70;
+}
+#cpu {
+  color: #faeab1;
+  padding: 0px;
+}
+#memory {
+  color: #fae8cf;
+}
+#clock {
+  color: #faeab1;
+}
+#clock.simpleclock {
+  color: #e5ba73;
+}
+#window {
+  color: #e5ba73;
+}
+#custom-logo {
+  color: #7ad6fa;
+}
+#custom-power {
+  color: #f38ba8;
+  margin-right: 9px;
+}
+#network {
+  background-color: transparent;
+  margin-left: 0px;
+  padding: 0px;
+  color: #e5ba73;
+}
+#pulseaudio {
+  color: #fae8cf;
+}
+#battery {
+  color: #faeab1;
+}
+#tooltip {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0px solid #89b4fa;
+}
+#tray {
+  margin-right: 0px;
+}
+#custom-notification {
+  margin-right: 10px;
+  color: #fc7b72;
+}
